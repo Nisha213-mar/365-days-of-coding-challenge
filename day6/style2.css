@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(58, 168, 241);
+    color: brown;
+    font-size: 21px;
+}
+p{
+    color: #ff002b;
+}
+.intro{
+    font-size: 30px;
+}
+.highlight{
+    background:yellow;
+}
+.accent-color{
+    color: rgb(11, 37, 19);
+}
+h1{
+    font-size: 70px;
+    color:rgb(100, 14, 42);
+}
+.top-section{
+    background: rgb(226, 136, 211);
+
+}
+.bottom-section{
+  background: violet;
+}
