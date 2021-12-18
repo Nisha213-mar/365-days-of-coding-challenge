@@ -1,0 +1,40 @@
+body{
+    background-color: #a7dbe3;
+    color:white;
+    font-size: 21px;
+}
+h1{
+    font-size: 70px;
+    color: #374b33;
+}
+p{
+    color:#2f4c5c;
+}
+/*this is my comment*/
+/*Margin :empty space around my element
+  Border:a border/stroke/around my element
+  padding:empty spacce with background around my element */
+.box{
+    background: pink;
+    width:300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    padding:80px;
+}
+.box1{
+    background:pink;
+    width:300px;
+    margin:100px;
+    border-left-width: 15px;
+    border-left-style: solid;
+    border-right-width: 15px;
+    border-right-style: solid;
+    border-color:green;
+    border-left-color:red;
+    border-style: groove;
+    padding:60px;
+}
