@@ -1,0 +1,23 @@
+body{
+    background-color: #a7dbe3;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    font-size: 21px;
+}
+h1{
+    font-family: 200px;
+    color:#3747b3;
+}
+p{
+    color: #2f4c5c;
+}
+.box{
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(http://img29.dreamies.de/img/279/b/93q1y2jiiao.gif);
+    padding:200px;
+    margin:100px
+    
+}
