@@ -1,0 +1,50 @@
+body{
+    background-color: #a7dbe3;
+    background-size: cover;
+    font-size: 21px;
+}
+h1{
+    font-family: 400px;
+    color:#3747b3;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0px;
+    font-family: 200px;
+    color: blueviolet;
+    font-style: oblique;
+}
+p{
+    color: #2f4c5c;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    color: brown;
+    text-align: justify;
+}
+.bolder{
+    font-weight: bolder;
+    text-decoration: overline;
+    text-transform: uppercase+;
+}
+/*a is used for styling links*/
+a{
+  color:rgb(20, 5, 105)
+  text-decoration:none;
+}
+/*a hower is used for 2d effect of link*/
+a:hover,a:focus{
+    color:darkgoldenrod;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+a:visited{
+    color:rgb(2, 20, 9);
+}
+a:active{
+    color:blueviolet;
+}
