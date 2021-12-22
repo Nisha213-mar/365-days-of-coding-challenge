@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(58, 168, 241);
+    color: brown;
+    font-size: 21px;
+    text-align:center;
+}
+p{
+    color: #ff002b;
+}
+.intro{
+    font-size: 30px;
+}
+.highlight{
+    background:yellow;
+}
+.accent-color{
+    color: rgb(11, 37, 19);
+}
+h1{
+    font-size: 70px;
+    color:rgb(100, 14, 42);
+}
+.top-section{
+    background: rgb(226, 136, 211);
+
+}
+.bottom-section{
+  background: violet;
+}
+ol{
+    list-style-type: upper-alpha;
+    background: lightblue;
+    padding: 50px;
+    list-style-position: inside;
+}
+ul{
+    list-style-type: url(https://lh3.googleusercontent.com/EbXw8rOdYxOGdXEFjgNP8lh-YAuUxwhOAe2jhrz3sgqvPeMac6a6tHvT35V6YMbyNvkZL4R_a2hcYBrtfUhLvhf-N2X3OB9cvH4uMw=w1064-v0);
+    background-color: pink;
+    padding: 20px;
+    list-style-position: inside;
+}
+ul li{
+    background: white;
+    margin-bottom: 15px;
+}
+ol li{
+    background: blue;
+    margin-bottom: 10px;
+    color: white;
+}
