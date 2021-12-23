@@ -1,0 +1,36 @@
+*{transition:all ease-in-out 1s}
+body{
+    background-color: #a7dbe3;
+    color: #4e476a;
+    font-size: 21px;
+    font-family: calibri,canada,segoe,"SegoeUI",Optima,Arial,sans-serif;
+}
+h1{
+    font-size: 70px;
+    color:#3747b3;
+    font-family: Rockwell,"Courier Bold",'Courier New', Courier, Georgia,Times,"Times New Roman",serif ;
+    margin-bottom:0px ;
+}
+h2{
+    margin-top: 0px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.red-box{
+    width: 500px;
+    background: rgba(255,0,0,.5);
+    margin-right: 50px;
+    float:left;
+}
+.blue-box{
+    width: 500px;
+    background: blue;
+    color: white;
+    
+}
+img{ 
+    float:left;
+}
