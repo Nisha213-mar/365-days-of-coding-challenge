@@ -1,0 +1,70 @@
+* {transition:all ease-in-out 1s}
+body{
+    background-color: #a7dbe3;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    font-size: 21px;
+}
+h1{
+    font-size: 70px;
+    color:#3747b3;
+    font-family: Rockwell,"Courier Bold",'Courier New', Courier, Georgia,Times,"Times New Roman",serif ;
+    margin-bottom:0px ;
+}
+h2{
+    margin-top: 0px;
+    color: lawngreen;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+
+img{ 
+    float:left;
+}
+.box{
+    width: 100px;
+    height:100px;
+    /*float:left;*/
+}
+#box1{
+    background:pink;
+    float:left;
+}
+#box2{
+    background:red;
+    float: left;
+}
+#box3{
+    background:firebrick;
+    float:left;
+}
+#box4{
+    background:rgb(8, 100, 97);
+    float: left;
+}
+#box5{
+    background:rgb(16, 167, 9);
+}
+#box6{
+    background:rgb(132, 28, 150);
+}
+#box7{
+    background:orange;
+}
+#box8{
+    background:yellow;
+    width: 300px;
+    height: 300px;
+}
+#box9{
+    background: hsl(150, 100%, 50%);
+    width: 300px;
+    height: 300px;
+    font-size: 34px;
+    font-weight: bold;
+}
