@@ -1,0 +1,35 @@
+body{
+    background-color: #CDE780;
+    font-family: "century Gothic",centuryGothic,AppleGothic,sans-serif;
+    font-size: 18px;
+    margin:0;
+}
+header{
+    background-color: #59594A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+  float:left;
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+aside{
+float: right;
+width: 25%;
+}
+footer{
+    background-color: #7286A0;
+    clear:both;
+    padding :50px 0;
+    text-align: center;
+}
