@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and text shadow</title>
+</head>
+<style>
+    body{
+        background-color: rgb(160, 95, 127);
+    }
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+       /* border: 2px solid red;*/
+        margin: 23px 12px;
+        background-color: rgb(230, 140, 55);
+       /* box-shadow: -10px -13px green;*/
+      /* box-shadow: 7px 5px 10px green;*/
+      box-shadow: -7px -5px 10px 34px green;
+      /*box-shadow: inset 3px 5px gold;*/
+    }
+    .card h2{
+      text-shadow: 3px 4px white;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="car-1"><h2>Card1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fuga neque rem illum consequuntur eos voluptates 
+            dolore earum exercitationem, ea a quam maiores ipsam voluptatum libero, facilis nostrum explicabo. Consequuntur in odio illum sed.</p>
+        </div>
+        <div class="card" id="car-2"><h2>Card2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit illum tempora exercitationem nam
+             minima fugiat mollitia nobis natus, error pariatur nulla ullam unde labore inventore repudiandae enim tempore dignissimos explicabo expedita quo fuga? Cum.</p>
+        </div>
+        <div class="card" id="car-3"><h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eligendi veritatis, obcaecati enim fugiat reiciendis explicabo error quisquam suscipit tempore 
+                deleniti animi facere quia cumque totam, esse qui odio? Praesentium nemo eligendi quisquam cumque?</p>
+        </div>
+    </div>
+</body>
+</html>
