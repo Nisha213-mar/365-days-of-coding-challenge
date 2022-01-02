@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+</head>
+<style>
+ .container{
+     background-color: greenyellow;
+ }
+ .box{
+     background-color: gold;
+     width: 300px;
+     height: 300px;
+     position: relative;
+     animation-name:Nisha1;
+     animation-duration: 8s;
+     animation-iteration-count: infinite;
+     /*animation-fill-mode: forwards;*/
+     /*animation-timing-function: ease-in-out;*/
+     /*animatin-delay:3s*/
+     /*animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode;*/
+     //*animation: Nisha 5s ease-in 1s 12 backwards;*/
+ }
+ .box1{
+    background-color: rgb(255, 0, 136);
+     width: 300px;
+     height: 300px;
+     position: relative;
+     animation: Nisha 5s ease-in 1s 12 backwards;
+ }
+ @keyframes Nisha {
+    /* from{
+        width: 200px;
+     }
+     to{
+         width: 400px;
+     }*/
+     0%{
+         top: 250px;
+         left: 0px;
+     }
+     25%{
+         top: 250px;
+         left: 250px;
+     }
+     75%{
+         top:0px;
+         left:250px;
+     }
+     100%{
+         top:0px;
+         lef---t:0px;
+     }
+ }
+ @keyframes Nisha1{
+     0%{
+      top:0px;
+      left:0px;
+     }
+     25%{
+       top:250px;
+       left:0px;
+     }
+     75%{
+       top: 250px;
+       left: 250px;
+     }
+     100%{
+         top: 0px;
+         left:250;
+     }
+ }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a box
+        </div>
+    </div>
+    <div class="container">
+        <div class="box1">
+            This is box 2
+        </div>
+    </div>
+</body>
+</html>
