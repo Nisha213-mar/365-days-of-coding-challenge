@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="https://www.google.com/search?sxsrf=AOaemvK8D4FVRcJlta97BnGsDTsUlHuU_g:1641471953936&source=univ&tbm=isch&q=showpiece+links&fir=0oirr3i3rICsEM%252CqEmE9SFoM2M_tM%252C_%253B3XDXImI5V80-pM%252Cx3MjB29WOZuzuM%252C_%253Bf5GoC4VdHKVPYM%252CxPvc18KZ1EwP-M%252C_%253BrU7jZWDhU458RM%252CjZLbjXMH-lbeTM%252C_%253B8Egi-PLqxd_khM%252CCIcHoUrrgCHE7M%252C_%253BuafLEgthRfk9LM%252Co4qEY2axDIFM2M%252C_%253B9sZKWCLaAmadIM%252CNleQrXhHq0t09M%252C_%253BTxLVL1iLKJnrLM%252CM0IiGVJxm77ZlM%252C_%253BiUksaBRyGGmoOM%252CeVnwSrgvaZRZqM%252C_%253BcxzzbGs04lIIFM%252ChsHcOcQFYuj9FM%252C_&usg=AI4_-kSYLnYdFxaRSByXdJ8aXljRhKcF9w&sa=X&ved=2ahUKEwiy-OPFj531AhVFNKYKHftRDfMQjJkEegQIGxAC&biw=1536&bih=714&dpr=1.25">Models</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Related items</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+             <h2>Secret Admirer Florist<br> and Gifts</h2>
+             <h3>Artsy Antiques and Gifts</h3>
+             <p>(Compatible/Generic)</p>
+             <h4>$360.50</h4>
+             <button type="button">Buy Now<img src="arrow.png"></button>
+            </div>
+            <div class="col-2">
+               <img src="table-showpiece.png" alt="watch">
+               <div class="color-box"></div>
+               <div class="add-btn">
+                   <img src="add.png">
+                   <p><small>Add to Cart</small></p>
+               </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="fb.png" >
+            <img src="tw.png" >
+            <img src="ig.png" >
+        </div>
+    </div>
+    <script>
+        var menuList=document.getElementById("menuList");
+        menuList.style.maxHeight="0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight=="0px"){
+                menuList.style.maxHeight="130px";
+            }
+            else{
+                menuList.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+</html>
