@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid + Media Queries</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+      'navbar navbar navbar navbar'
+      'section section section aside'
+      'footer footer footer footer'
+    }
+    @media(max-width:300px){
+            body{
+                background-color: cyan;
+            }
+        }
+        @media (min-width:300px) and (max-width:500px){
+            body{
+                background-color: blueviolet;
+            }
+            .container{
+        grid-template-areas:
+      'navbar navbar navbar navbar'
+      'section section section section'
+      'aside aside aside aside'
+      'footer footer footer footer'
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+       
+    aside {
+    display: none;
+    }
+        }
+        @media (min-width:500px) and (max-width:800px){
+            body{
+                background-color: yellow;
+            }
+            .container{
+        grid-template-areas:
+      'navbar navbar navbar navbar'
+      'section section section section'
+      'aside aside aside aside'
+      'footer footer footer footer'
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+        }
+        @media(min-width:800px) {
+            body{
+                background-color: green;
+            }
+        }
+        .bdr{
+            border: 2px solid black;
+            padding: 10px 23px;
+            background-color: wheat;
+        }
+     nav{
+         grid-area: navbar;
+     }
+     section{
+         grid-area: section;
+     }
+     aside{
+         grid-area: aside;
+     }
+     footer{
+         grid-area: footer;
+         text-align: center;
+     
+        }
+    
+</style>
+<body>
+   <div class="container">
+       <nav class="bdr">
+           <span>Home</span>
+           <span>About</span>
+           <span>Services</span>
+           <span>Contact</span>
+       </nav>
+       <section class="bdr">
+           <h2>Hello Everyone</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure autem saepe corporis deserunt eius. Quam ratione necessitatibus dolores ullam ipsam tenetur
+                suscipit molestiae eligendi impedit atque cupiditate minus provident, labore unde alias voluptatum. Corporis, ullam totam numquam architecto dolorum modi
+                 tempore exercitationem iusto, sequi inventore provident neque mollitia pariatur animi rerum, excepturi itaque quis molestiae sed nobis aut officia enim rem nam.
+                  Tempore officiis alias est voluptate rerum eveniet pariatur et saepe eaque a vitae natus enim fugiat perferendis suscipit dolorum aliquid dolorem minus tenetur,
+                   quam nemo quia ex optio asperiores. Explicabo minima voluptate quam minus sequi totam, exercitationem expedita, quae nesciunt iusto impedit molestiae, 
+                   et sit fugiat? Culpa, ullam. Officia illum aspernatur expedita mollitia similique maiores quidem fugiat enim dolore odit adipisci, nisi sapiente nulla fugit.
+                    Consequatur error consectetur obcaecati debitis delectus ratione nesciunt hic vitae praesentium in. Alias minus ut ex necessitatibus aspernatur impedit enim
+                     earum dignissimos dicta?</p>
+       </section>
+       <aside class="bdr">
+           <h1>More About Us</h1>
+       </aside>
+   </div> 
+   <footer class="bdr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, ab.</footer>
+</body>
+</html>
