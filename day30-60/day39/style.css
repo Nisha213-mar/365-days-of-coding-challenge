@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+.body{
+    font-family: 'Lexend Deca',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    background-size: contain;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 10%;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.item{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item1{
+   
+    background-color: hsl(31, 77%, 52%);
+    
+    
+}
+.item2{
+    
+    background-color: hsl(184, 100%, 22%);
+}
+.item3{
+    
+    background-color: hsl(179, 100%, 13%);
+}
+.car{
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+}
+.text-content h2{
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-family: 'Big Shoulders Display',cursive;
+    margin-left: 3rem;
+}
+.text-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    margin-left: 3rem;
+    margin-right: 2rem;
+
+}
+.item a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all .4s ease-in-out;
+    margin-bottom: 25px;
+    margin-left: 3rem;
+}
+.item1 a{
+    color: hsl(31, 77%, 52%);
+}
+.item2 a{
+    color: hsl(184, 100%, 22%);
+}
+.item3 a{
+    color: hsl(179, 100%, 13%);
+}
+.item a:hover{
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+@media only screen and (max-width:768px){
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width:427px){
+    .wrapper{
+        margin: 2rem .5rem;
+    }
+}
+.attribution{
+    text-align: center;
+}
