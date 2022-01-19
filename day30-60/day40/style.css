@@ -1,0 +1,96 @@
+$font-size:1.5rem;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    background-color: hsl(233, 47%, 7%);
+}
+.container{
+   border: 1px solid white; 
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+background-color: hsl(244, 38%, 16%);
+display: flex;
+align-items: stretch;
+justify-content: center;
+border-radius: 1rem;
+}
+.card-text-part h1{
+   color: hsl(0, 0%, 100%);
+   font-size: 40px;
+   text-align: center;
+   margin-left: 3.5rem;
+   margin-right: 5rem;
+   margin-top: 6rem;
+}
+.card-text-part p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 17px;
+    margin-left: 3.5rem;
+    font-family:'Lexend Deca',sans-serif;
+    line-height: 1.6;
+}
+.card-text-part h1 span{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.card-text-part h1 span:hover{
+    color: hsl(277, 64%, 61%);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition: ease-in-out;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+    margin-right: 5rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.stat-num{
+    color:hsl(0, 0%, 100%);
+    font-family: 'Inter',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.container .card-image{
+    position: relative;
+}
+.container .card-image div{
+   position: absolute;
+   top: 0;
+   background: hsl(277, 64%, 61%);
+   width: 100%;
+    height: 100%;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.container .card-image div:hover{
+    opacity: 0.45;
+    cursor: pointer;
+}
+.attribution{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
