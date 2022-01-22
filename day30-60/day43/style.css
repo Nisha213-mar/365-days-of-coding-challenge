@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+.container{
+    border: 1px solid black; 
+   height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 55px;
+    text-align:justify;
+    
+}
+.heading p{
+    color: hsl(303, 10%, 53%);
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 23px;
+}
+.text-part{
+    display: flex;
+}
+.item-1{
+    margin-left: 5.5rem;
+    margin-right: 1.5rem;
+}
+.item-2{
+    margin-left: 7.5rem;
+    margin-right: 1.5rem;
+}
+.item-3{
+    margin-left: 10.5rem;
+    margin-right: 1.5rem;
+}
+.item{
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #F7F2F8;
+    padding: .7rem 1.5rem;
+    margin-bottom: .8rem;
+    font-size: 1.1rem;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+.text-part{
+    margin: 6.5rem 7rem ;
+    
+}
+.box{
+    display: flex;
+    
+    color:white;
+    
+    padding: 5rem 4rem;
+}
+.box-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    background: hsl(300, 43%, 22%);
+    padding: 5rem 2rem;
+    margin-block-end: 2rem;
+    border-radius: 1.2rem;
+}
+.box-1 h2{
+    display: flex;
+    font-family: "Lexend Deca",sans-serif;
+    font-size: 20px;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.box-1 p{
+    line-height: 1.6;
+}
+.box img{
+    width: 3.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.box-2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    background: hsl(300, 43%, 22%);
+    padding: 5rem 2rem;
+    margin-block-end: 2rem;
+    border-radius: 1.2rem;
+}
+.box-2 h2{
+    display: flex;
+    font-family: "Lexend Deca",sans-serif;
+    font-size: 20px;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.box-2 p{
+    line-height: 1.6;
+}
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    background: hsl(300, 43%, 22%);
+    padding: 5rem 2rem;
+    margin-block-end: 2rem;
+    border-radius: 1.2rem;
+}
+.box-3 h2{
+    display: flex;
+    font-family: "Lexend Deca",sans-serif;
+    font-size: 20px;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.box-3 p{
+    line-height: 1.6;
+}
+@media (max-width: 500px) {
+    .box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .heading h1{
+        font-size: 30px;
+        font-weight: 700;
+        justify-content: center;
+    }
+    .text-part{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem 1.5rem 2rem 2rem;
+    }
+    .heading p{
+        font-size: 13px;
+    }
+    .item{
+        padding: .5rem 1rem;
+        font-size: 0.7rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .item-1{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+    .item-2{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+    .item-3{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+    .box{
+        margin-left: 0rem;
+    }
+    .container{
+        border: white;
+    }
+}
