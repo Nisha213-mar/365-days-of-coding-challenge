@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@400;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    min-height: 100vh;
+    background-size: contain;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid black;
+}
+    .container{
+        margin-top: 8rem;
+        margin-left: 7rem;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+        'section1 section1 section1 section1 section2 section2 section2 section5'
+        'section3 section3 section3 section4 section4 section4 section4 section5'
+       }
+
+.box-11{
+    display: flex;
+    
+    
+}
+.box-22{
+    display: flex;
+    
+}
+.box1{
+position: relative;
+  background-color: hsl(263, 55%, 52%);
+  margin-right: 3rem;
+  color: hsl(0, 0%, 100%) ;
+  border-radius: 12px;
+  padding: 35px;
+}
+.box1 .quotes{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 90px;
+    
+}
+.box-2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 12px;
+    padding: 35px;
+}
+.box-3{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 12px;
+    padding: 35px;
+}
+.box-4{
+    background-color: hsl(219, 29%, 14%);
+    margin-top: 2rem;
+    border-radius: 12px;
+    padding: 35px;
+}
+.box-5{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 20rem;
+    padding: 12px;
+    padding: 35px;
+}
+.image{
+    display: flex;
+}
+.image img{
+    width: 2.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.text-type h2{
+   font-weight: 700;
+   font-size: 22px;
+   color: hsl(0, 0%, 100%);
+   margin-top: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+.text-type p{
+    font-weight: 400;
+    font-size: 17px;
+    color: hsl(0, 0%, 81%);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.7rem;
+    line-height: 1.4;
+}
+.text1 h2{
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+}
+.text1 p{
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(0, 0%, 81%);
+}
+.image{
+    margin-top: 0.2rem;
+
+}
+.box-3  h2{
+    color: hsl(219, 29%, 14%);
+}
+.box-3 p{
+    color: hsl(217, 19%, 35%);
+}
+.box-5 h2{
+    color: hsl(219, 29%, 14%);
+}
+.box-5 p{
+    color:hsl(217, 19%, 35%)
+}
+.attribution{
+    text-align: center;
+}
+@media only screen and (max-width:500px) {
+    body{
+        background-size: contain;
+        border: none;
+    }
+    .container{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-11{
+        flex-wrap: wrap;
+    }
+    .box-22{
+        flex-wrap: wrap;
+    }
+    .box1{
+        margin-bottom: 1rem;
+    }
+}
