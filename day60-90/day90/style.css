@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@400;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:"Manrope",sans-serif ;
+    height: 100vh;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+    display: flex;
+    line-height: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5%;
+    position: relative;
+}
+/*.container{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    display: flex;
+    background-color: hsl(210, 46%, 95%);
+    justify-content: center;
+}*/
+.box h1{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 19px;   
+}
+.box p{
+    color: hsl(214, 17%, 51%);
+    margin-bottom: 3%;
+    font-size: 14px;
+}
+.box2 img{
+    width: 4rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-content: space-between;
+}
+
+.box2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.box2 #button{
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50px;
+    padding:8px;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+
+}
+.share{
+    padding: 3%;
+    background-color: hsl(217,46%,41%);
+    color: hsl(212, 23%, 69%);
+    display: flex;
+    width: 20%;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    display: none;
+}
+.share .shareSvg{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.share .triangle{
+    width: 20px;
+    height: 20px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    transform: rotateY(0deg) rotate(45deg);
+}
+.box2 #buttonClose{
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50px;
+    padding: 8px;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration: none;
+    cursor:pointer;
+    outline: none;
+    color: white;
+    border: none;
+    display: none;
+}
+.share #buttonClose{
+    display: none;
+}
+@media screen and (max-width:500px){
+    .body{
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container .image{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .box{
+        margin-top: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .image img{
+        width: 100%;
+    }
+    .share{
+        top=75%
+        left=0;
+        width: 94%;
+        height: 50px;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+    .share .shareSvg{
+        width: 35%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 15%;
+    }
+    .share #buttonClose{
+        background-color: hsl(210, 46%, 95%);
+        border-radius: 50px;
+        padding: 8px;
+        margin-right: 4%;
+        display: inline-block;
+        text-decoration: none;
+        cursor:pointer;
+        outline: none;
+        color: white;
+        border: none;
+    }
+    .share .triangle{
+        display: none;
+    }
+}
